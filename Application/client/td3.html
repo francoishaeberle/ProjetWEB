@@ -79,7 +79,7 @@ function OnMarkerClick (e) {
 
     // affichage dans la zone 'description' du nom (reprise dans le popup)
     // et de la description récupérée par l'appel au serveur
-    description.innerHTML =  '<b><i>'+'<img src="/flags/' + data.wp + '.png">' +'</i></b><br><b>'+ e.target.getPopup().getContent() +'</b></i></b><br>'+ 'Nom officiel : ' + data.name+ '</i></b><br>'+ 'Capitale : ' + data.capital+ '</i></b><br>'+ 'Latitude : ' + data.latitude+ '</i></b><br>'+'Longitude : '+ data.longitude + '</i></b><br>'+ 'Superficie en km^2 : ' + data.surface + '</i></b><br>'+ 'Dirigeant : ' + data.dirigeant+ '</i></b><br>'+ 'Population : ' + data.population+'</i></b><br>' +'<tr><td>Plus d\'infos: </td><td><a href=\"http://wikipedia.org/wiki/' + data.wp + '\">Page Wikipedia</a>' + '</td></tr>';;
+    description.innerHTML =  '<b><i>'+'<img src="/flags/' + data.wp + '.png">' +'</i></b><br><b>'+ e.target.getPopup().getContent() +'</b></i></b><br>'+ 'Nom officiel : ' + data.name+ '</i></b><br>'+ 'Capitale : ' + data.capital+ '</i></b><br>'+ 'Latitude : ' + data.latitude+ '</i></b><br>'+'Longitude : '+ data.longitude + '</i></b><br>';;
   };
 
   // Le numéro du lieu est récupéré via la propriété personnalisée du marqueur
