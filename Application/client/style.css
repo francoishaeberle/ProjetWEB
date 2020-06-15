@@ -1,0 +1,43 @@
+﻿/* fond de page */
+body {
+  background-image: linear-gradient(10deg, coral, pink, white);
+  background-size: 100%;
+  background-repeat: repeat;
+  color: darkseagreen;
+  
+  margin: 0;
+  /* pour éviter l'ascenseur */
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+/* bandeau de titre */
+h1 { 
+  color: white;
+  border: none;
+  box-shadow: 10px 5px 5px black;
+  background-color: rgba(255,255,255,0.5);
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  margin-top: 1em;
+  text-shadow: 3px 3px 3px black;
+  text-align:center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+/* contenu de la page */
+body > * {   padding-left: 5px; }
+
+/* polices de caractères */
+body { font-family: Helvetica, sans-serif; }
+
+/* positionnement des champs */
+label { display: block; }
+label span { display: inline-block; width: 5em; height: 1.5em; }
+
+a.delete:hover {
+  color: red;
+}
+#map { height: 450px; width: 1500px; }
