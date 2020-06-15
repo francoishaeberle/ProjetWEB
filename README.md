@@ -9,11 +9,6 @@ Arthur Naudy
 
 Modif1
 
-L'objectif est de réaliser une interface web permettant de donner des informations sur les pays d'Asie.
+L'objectif est de réaliser une interface web permettant de donner des informations sur les pays d'Europe.
 
-Modif2 - Sarah
-
-Salut Salut
-
-Modif 3
 
