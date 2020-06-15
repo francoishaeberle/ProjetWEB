@@ -7,8 +7,6 @@ Kouadio Ndri
 Sarah Otero del val
 Arthur Naudy
 
-Modif1
-
 L'objectif est de réaliser une interface web permettant de donner des informations sur les pays d'Europe.
 
 
